@@ -1,0 +1,12 @@
+.son{width: 200px;height: 200px;background-color: greenyellow;}
+
+.dad{display: flex; justify-content: center; flex-wrap: wrap; gap: 100px;}
+@media screen and (max-width:600px) and (min-width:300px) {
+    .dad{display: flex; flex-wrap:wrap ; gap: 80px;}
+    .son{background: red;}
+}
+@media  screen and (max-width:900px) and (min-width:601px) {
+    .dad{flex-wrap: wrap; display: flex;
+    gap: 80px;}
+    .son{background: yellow;}
+}
